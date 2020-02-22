@@ -1,0 +1,42 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.452);
+    padding: 0.6rem 0;
+
+    &__content {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        @include phone {
+            flex-direction: column;
+        }
+    }
+
+    &__list {
+        display: flex;
+        list-style: none;
+    }
+
+    &__item {
+        margin: 0 1.2rem;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.logo {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "onlinestore",
+  "version": "1.0.0",
+  "description": "online store",
+  "main": "index.js",
+  "scripts": {
+    "compiler": "node-sass styles/sass/style.scss styles/style.css"
+  },
+  "author": "prishni lamichhane",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
